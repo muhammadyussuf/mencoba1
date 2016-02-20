@@ -12,6 +12,20 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="@string/tulisanhelloword"
+        android:id="@+id/txtTulisan"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tulisanterjemahkanidn"
+        android:id="@+id/btnTerjemahkan"
+        android:layout_marginTop="87dp"
+        android:onClick="onClickTerjemahkan"
+        android:layout_below="@+id/txtTulisan"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>
